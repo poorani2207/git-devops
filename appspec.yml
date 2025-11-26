@@ -4,3 +4,8 @@ os: linux
 files:
   - source: index.html
     destination: /var/www/html/
+
+hooks:
+  AfterInstall:
+    - location: scripts/restart_server.sh
+      runas: root
