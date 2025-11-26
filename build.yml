@@ -1,8 +1,0 @@
-version: 0.2
-phases:
-  build:
-    commands:
-      - echo "Build stage -HTML"
-artifacts:
-  files:
-    - index.html
